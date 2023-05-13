@@ -1,0 +1,8 @@
+{
+  "name": "test-rn-template",
+  "version": "0.0.1",
+  "description": "React Native Template",
+  "repository": "https://github.com/Esemesek/react-native-new-template.git",
+  "author": "Hewr <hewr_s@outlook.com>",
+  "license": "MIT"
+}

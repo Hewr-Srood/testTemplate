@@ -1,0 +1,66 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    // Path alias config
+    "baseUrl": ".",
+    "paths": {
+      // This needs to be mirrored in babel.config.js
+      "@src/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@atoms": [
+        "src/components/atoms/index"
+      ],
+      "@molecules": [
+        "src/components/molecules/index"
+      ],
+      "@organisms": [
+        "src/components/organisms/index"
+      ],
+      "@screens": [
+        "src/components/screens/index"
+      ],
+      "@templates": [
+        "src/components/templates/index"
+      ],
+      "@svg": [
+        "src/components/svg/index"
+      ],
+      "@utils": [
+        "src/utils/index"
+      ],
+      "@hooks": [
+        "src/hooks/index"
+      ],
+      "@assets": [
+        "src/assets/index"
+      ],
+      "@constants": [
+        "src/constants/index"
+      ],
+      "@navigation": [
+        "src/navigation/index"
+      ],
+      "@services": [
+        "src/services/index"
+      ],
+      "@HOC": [
+        "src/HOC/index"
+      ],
+      "@configs": [
+        "src/configs/index"
+      ]
+    }
+  },
+  // "references": [
+  //   {
+  //     "path": "./tsconfig.app.json"
+  //   },
+  // ]
+}
